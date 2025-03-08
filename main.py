@@ -88,7 +88,7 @@ def main():
     for algorithm in stats.keys():
         print(f"- {algorithm}: {stats[algorithm]['avg_duration']:.2f} minutes")
     print("\nHighest Average Happiness Rating:")
-    print(f"- {highest_happiness_alg} with an average happiness rating of {highest_avg_happiness}")
+    print(f"- {highest_happiness_alg} with an average happiness rating of {highest_avg_happiness:.2f}")
     print("\nLongest Average Session Duration:")
     print(f"- {longest_average_duration_alg} with an average session duration of {longest_average_duration:.2f} minutes")
 
