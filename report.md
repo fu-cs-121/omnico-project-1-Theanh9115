@@ -44,7 +44,7 @@ I store the file data into dictionary and use for loop to calculate the result.
   - SerenityFlow maybe a great experience, but too short.
 
 ## Conclusions and Recommendations
-
---- JoyStream is a decent algorithm so far. Need to test different algorithms duration to be sure which one is appopriate.
+  - JoyStream is a decent algorithm so far. Need to test different algorithms duration to be sure which one is appopriate.
+--- 
 
 _This report contains confidential information proprietary to OmniCo. Unauthorized use or disclosure is strictly prohibited.
