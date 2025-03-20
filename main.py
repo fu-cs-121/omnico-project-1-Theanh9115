@@ -56,9 +56,9 @@ def main():
 
     #Loop to calculate algorithms' average happiness and duration rating
     for algorithm in stats.keys():
-        avg_hapiness = stats[algorithm]['total_happiness'] / stats[algorithm]['session_count']
+        avg_happiness = stats[algorithm]['total_happiness'] / stats[algorithm]['session_count']
         avg_duration = stats[algorithm]['total_duration'] / stats[algorithm]['session_count']
-        stats[algorithm]['avg_happiness'] = avg_hapiness
+        stats[algorithm]['avg_happiness'] = avg_happiness
         stats[algorithm]['avg_duration'] = avg_duration
 
     #Find highest happiness and longest duration rating
